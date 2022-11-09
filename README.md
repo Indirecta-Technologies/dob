@@ -28,7 +28,7 @@ There are different types of devices:
  - **LegacyMonitor** --> DoB module performs size and truncation calculations, uses a buffer
  - **Monitor** --> Monitor is independent and receives the latest output
  - **Device** --> Like the monitor, it receives data independently, without a SurfaceGui
- - **Interface** --> Like the device, but it interfaces with the DoB module, the interface does not have an object/instance
+ - **Interface** --> Like the device, but it interfaces with the DoB module, the interface does not have an object/instance  
 Before displaying an info, debug, warn, error, success preset message, the echo function is called with the device's custom echo settings, header, and text.
 The echo functions handles all text manipulation like padding, time, color for RichText. This function returns a string which is in turn used by the DoB module or other modules.
 
